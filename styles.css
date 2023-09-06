@@ -1,0 +1,466 @@
+.couleur{
+    color: #A5B4FC;
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+  }
+  
+    a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+    h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  em{
+    color: #a5b4fc;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #F9F8FF;
+  }
+  
+  h2{
+    color: #F9F8FF;
+  }
+  
+  .sous-titre{
+    color: #a5b4fc;
+    text-align: center;
+  }
+  
+  ul>li{
+    color: #F9F8FF;
+  }
+  
+  header, footer{
+    background-color: white;
+    padding: 20px 50px;
+    position: sticky;
+  }
+  
+  footer{
+    position: absolute;
+  }
+  
+  .cta{
+    font-family: 'Montserrat';
+    color: white;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    padding: 20px 30px;
+    display: inline-block;
+  }
+  
+  .cta-box{
+   margin: auto;
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+  
+  .a-propos{
+    border-right: solid 1px #8e86b5;
+    border-bottom: solid 1px #8e86b5;
+    padding: 50px;
+  }
+  
+  .a-propos h1{
+    margin-top: 30px;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  a[class="cta"]:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+  }
+  
+  .logo:hover {
+    opacity: 0.5;
+  }
+  
+  section {
+    padding: 80px;
+    width: auto;
+  }
+  
+  .contenu {
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  .services{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .liste{
+    margin-bottom: 50px;
+  }
+  
+  .lien{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  
+  .lien-droite{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: flex-end;  
+    align-items: center;
+  }
+  
+    .lien-droite>a{
+        margin: 0 2%;
+    }
+  
+    .div-box{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: stretch;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .div-box>*{
+      margin: 3%;
+    }
+  
+    .contenue-accueil{
+      right: 5%;    
+    }
+  
+  * {
+    margin: 0;
+  }
+  
+  .impaire{
+    background: #1f2039;
+    color: #F9F8FF;
+  }
+  
+  .paire>*{
+    background-color: white;
+    color: #242424;
+  }
+  
+  .titre{
+    text-align: center;
+  }
+  
+  .photo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image{
+    margin: 1%;
+    display: block;
+    float:left;
+    width: 326px;
+    height: 311px;
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 25px;
+  }
+  
+  .one{
+    background-image: url(img/acceuil/element-1.png);
+  }
+  
+  .two{
+    background-image: url(img/acceuil/element-2.png);
+  }
+  
+  .three{
+    background-image: url(img/acceuil/element-3.png);
+  }
+  
+  .four{
+    background-image: url(img/acceuil/element-4.png);
+  }
+  
+  .five{
+    background-image: url(img/acceuil/element-5.png);
+  }
+  
+  .six{
+    background-image: url(img/acceuil/element-6.png);
+  }
+  
+  div[title="voir mon portfolio"]{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  
+  .paysage-portfolio {
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  
+  .portrait-portfolio {
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  
+  .portrait-portfolio>*{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .paysage1{
+    background-image: url(img/portfolio/paysage1.jpg);
+    background-size: cover;
+  }
+  
+  .paysage2{
+    background-image: url(img/portfolio/paysage2.jpg);
+    background-size: cover;
+  }
+  
+  .paysage3{
+    background-image: url(img/portfolio/paysage3.jpg);
+    background-size: cover;
+  }
+  
+  .paysage4{
+    background-image: url(img/portfolio/paysage4.jpg);
+    background-size: cover;
+  }
+  
+  .paysage5{
+    background-image: url(img/portfolio/paysage5.jpg);
+    background-size: cover;
+  }
+  
+  .paysage6{
+    background-image: url(img/portfolio/paysage6.jpg);
+    background-size: cover;
+  }
+  
+  .paysage7{
+    background-image: url(img/portfolio/paysage7.jpg);
+    background-size: cover;
+  }
+  
+  .paysage8{
+    background-image: url(img/portfolio/paysage8.jpg);
+    background-size: cover;
+  }
+  
+  .paysage9{
+    background-image: url(img/portfolio/paysage9.jpg);
+    background-size: cover;
+  }
+  
+  .un{
+    background-image: url(img/portfolio/portrait1.jpg);
+    background-size: cover;
+  }
+  
+  .deux{
+    background-image: url(img/portfolio/portrait2.jpg);
+    background-size: cover;
+  }
+  
+  .trois{
+    background-image: url(img/portfolio/portrait3.jpg);
+    background-size: cover;
+  }
+  
+  .quatre{
+    background-image: url(img/portfolio/portrait4.jpg);
+    background-size: cover;
+  }
+  
+  .cinq{
+    background-image: url(img/portfolio/portrait5.jpg);
+    background-size: cover;
+  }
+  
+  .sixs{
+    background-image: url(img/portfolio/portrait6.jpg);
+    background-size: cover;
+  }
+  
+  .noir{
+    opacity: 0%;
+    position: absolute;
+    width: 326px;
+    height: 311px;
+  }
+  
+  .noir:hover{
+    display: block;
+    opacity: 70%;
+  }
+  
+  td,th{
+      border: #a5b4fc solid 1px;
+      padding: 10px;
+  }
+  
+  td{
+    padding: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  
+  table{
+    margin-top: 15px;
+    border-collapse: collapse;
+  }
+  
+  .tarif{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact>*{
+    display: inline-block;
+  }
+  
+  .formulaire{
+    margin: 10% 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+  }
+  
+  .nom>input, .email>input{
+    margin-bottom: 20px;
+    border: #a5b4fc solid;
+    width: 100%;
+  }
+  
+  .nom, .email{
+    display: inline;
+    width: 45%;
+  }
+  
+  .msg{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  
+  .msg>textarea{
+    border: #a5b4fc solid;
+    width: 100%;
+  }
+  
+  .div[title="envoyer"] {
+    justify-content: center;
+    width: 00%;
+  }
+  .div[title="envoyer"]>input {
+    width: 1000%;
+  }
+   
+  @media screen and (max-width: 1000px) {
+    p{
+      overflow: scroll;
+      margin: 5% 0;
+    }
+  
+    .photo{
+      flex-direction: column;
+      align-content: space-around
+    }
+  
+    .PP{
+      background-size: cover;
+      width: 50%;
+    }
+    .PP>*{
+      size: 50%;
+    }
+  
+    .formulaire {
+      margin: 5% 0 0 0;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-items: center;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    h1{
+      font-size: 250%;
+    }
+  
+    .div-box{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .paysage-portfolio, .portrait-portfolio, .sous-section{
+      margin: 2%;
+    }
+  
+    .photo{
+      margin-top: 5%;
+    }
+  
+    .msg{
+      width: 70%;
+      margin: 0;
+    }
+  
+    section{
+      padding: 80px 0;
+    }
+  
+    .nom, .email{
+      width: 70%;
+    }
+  
+    .nom>input, .email>input{
+      height: 30px;
+    }
+  
+    .form{
+      height: 825px;
+    }
+  }
